@@ -21,34 +21,8 @@ export function Main({
                     <S.BtnStart>{btnstart}</S.BtnStart>
                 </S.Wrapper>
 
-                <img style={{ width: "350px" }} src={image} alt="figure header" />
+                <S.MainImg src={image} alt="figure header" />
             </S.Container>
-
-            <S.BottomWrapper>
-                <S.BottomTitle>{bottomtitle}</S.BottomTitle>
-                <S.BottomParagraph>{bottomparagraph}</S.BottomParagraph>
-            </S.BottomWrapper>
-
-            <S.BoxGif>
-                <figure>
-                    <S.ImageMain src={imagemain} alt="" />
-                </figure>
-                <div>
-                    <S.TitleGif>Realtime and Collaborative</S.TitleGif>
-                    <S.ParagraphGif>Working remotely just got a lot easier. Our collaborative spaces provide greater integration and visualization of ideas in real time.</S.ParagraphGif>
-                </div>
-            </S.BoxGif>
-
-            <S.BoxImgMain>
-                <figure>
-                    <S.ImageMain src={imgmain} alt="" />
-                </figure>
-                <div>
-                    <S.TitleImgMain>Uncomplicated, intuitive, friendly</S.TitleImgMain>
-                    <S.ParagraphImgMain>Ideal for who is looking to increase productivity and potentialize<br /> collaboration.
-                        <br />Everything free, like thinking.</S.ParagraphImgMain>
-                </div>
-            </S.BoxImgMain>
 
             <S.BoxMain>
                 <S.WrapperMain>

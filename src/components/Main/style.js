@@ -2,19 +2,25 @@ import styled from 'styled-components'
 
 export  const Container = styled.div`
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     padding-top: 3rem;
+    width: 80%;
+    height: 75vh;
+    margin: 0 auto;
+  
 `
 
 export const Wrapper = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 40vh;
+    height: 100%;
+    width: 40%;
 `
 
 export const Title = styled.h1`
-    width: 360px;
+ 
+    font-size: 63px;
     color: rgb(34, 37, 75);
 `
 
@@ -22,67 +28,34 @@ export const Paragraph = styled.p`
     width: 380px;
     color: rgb(34, 37, 75);
     opacity: 0.9;
+    font-size: 22px;
 `
 
 export const BtnStart = styled.button`
     background: gold;
-    width: 150px;
+    width: 214px;
+    height: 58px;
+    padding: 1.275rem;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border: 0;
     cursor: pointer;
     font-weight: bold;
-`
-
-export const BottomTitle = styled.h2`
+    border-radius: 4px;
     color: rgb(34, 37, 75);
 `
 
-export const BottomParagraph = styled.p`
-    width: 465px;
-    color: rgb(34, 37, 75);
-    opacity: 0.9;
-    text-align: center;
-`
+export const MainImg = styled.img `
+    margin-left: auto;
+    margin-bottom: -2rem;
+    margin-right: -8%;
+    width: 80%;
+;
+    margin-right: -8%;
+    width: 60%;
 
-export const BottomWrapper = styled.div`
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-`
-
-export const BoxGif = styled.div`
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background-color: rgb(34, 37, 75);
-    height: 40vh;
-`
-
-export const ImageMain = styled.img`
-    width: 150px;
-`
-
-export const TitleGif = styled.h2`
-    color: #fff;
-`
-
-export const ParagraphGif = styled.p`
-    width: 450px;
-    color: #fff;
-`
-
-export const BoxImgMain = styled.div`
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-`
-export const TitleImgMain = styled.h2`
-    width: 300px;
-    color: rgb(34, 37, 75);
-`
-
-export const ParagraphImgMain = styled.p`
-    color: rgb(34, 37, 75);
 `
 
 export const BoxMain = styled.div`
@@ -91,19 +64,25 @@ export const BoxMain = styled.div`
     align-items: center;
     text-align: center;
     background-color: rgb(34, 37, 75);
+    margin-top: 4rem;
+ 
+
 `
 
 export const ParagraphMain = styled.p`
-    width: 700px;
+    font-size: 22px;
     color: #fff;
 `
 export const TitleMain = styled.h2`
-    width: 350px;
+    font-size: 55px;
     color: #fff;
+    margin-bottom: 1rem;
 `
 
 export const WrapperMain = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 4rem auto;
+    width: 50%;
 `

@@ -14,7 +14,7 @@ export const Container = styled.div `
     -webkit-box-pack: justify;
     justify-content: space-between;
     width: 80%;
-    margin: 0px auto;
+    margin: 3rem auto;
     padding: 0px 0px 7rem;
     max-width: 1440px;
 
@@ -22,12 +22,12 @@ export const Container = styled.div `
 
 export const ImageBox = styled.div `
     width: 70%;
-    margin: 3rem 0p;
+    margin: 3rem 0;
 `;
 
 export const Image = styled.img `
 width: 70%;
-    margin: 3rem 0p;
+    margin: 3rem 0;
 `;
 
 export const List = styled.ul `
@@ -39,5 +39,5 @@ export const Item = styled.li `
     padding: 0.875rem;
     color: rgb(34, 37, 75);
     text-align: center;
-}
+
 `;

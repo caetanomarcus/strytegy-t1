@@ -10,13 +10,15 @@ export function Header({
 }) {
     return (
         <S.ContainerHeader>
-            <S.ImageLogo src={image} alt="" />
+           <S.Contender>
+           <S.ImageLogo src={image} alt="" />
             <div>
             <S.BtnsInfo>{blog}</S.BtnsInfo>
             <S.BtnsInfo>{faq}</S.BtnsInfo>
             <S.BtnsInfo>{enter}</S.BtnsInfo>
             <S.BtnsInfo>{lang}</S.BtnsInfo>
             </div>
+           </S.Contender>
         </S.ContainerHeader>
     )
 }

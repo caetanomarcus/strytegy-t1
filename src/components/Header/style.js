@@ -8,22 +8,37 @@ export const ContainerHeader = styled.div`
     box-shadow: rgb(0 0 0 / 10%) 0px 3px 10px;
 
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 `
 
+export const Contender = styled.div`
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: auto;
+
+`
+
 export const ImageLogo = styled.img`
-    width: 100px;
+    width: 142px;
+  
 `
 
 export const BtnsInfo = styled.button`
     background: transparent;
     border: 0;
     cursor: pointer;
-    margin-right: .5rem;
+    margin-right: 4rem;
+    font-size: 21px;
     &:nth-child(3) {
         background: rgb(255, 235, 151);
-        width: 100px;
+        width: 180px;
+        height: 48px;
+        border-radius: 4px;
+        margin-right: 2rem;
       }
     &:nth-child(4) {
         border: solid 1px #000;
@@ -31,5 +46,6 @@ export const BtnsInfo = styled.button`
         font-size: 10px;
         width: 28px;
         height: 28px;
+     
       }
 `
